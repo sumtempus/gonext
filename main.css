@@ -1,0 +1,181 @@
+body{
+  font-family: 'Montserrat',sans-serif;
+  margin:0;
+  padding:0;
+}
+.main-page{
+  background-image: url("Provence_481399016iS.jpg");
+  width: 100%;
+  height: 42em;
+  background-repeat: no-repeat;
+  
+
+}
+
+.header{
+  border-bottom: 0.3px solid whitesmoke;
+  height: 8.5em;
+  
+  
+  
+}
+
+.logo img{
+  padding: 25px;
+}
+.first-header{
+  height: 80px;
+}
+
+.first-header ul{
+  display: flex;
+  flex-flow: wrap row;
+  width:650px;
+  justify-content: space-between;
+  float: right;
+  list-style: none;
+  padding-top:1em; 
+  padding-right: 1em;
+
+  
+
+}
+.first-header li a{
+  color:white;
+  text-decoration: none;
+  font-weight: 600;
+}
+.border{
+  border: 1px solid #4db848;
+  padding: 12px;
+  background-color: #4db848;
+}
+.border:hover{
+  background-color: #00c113;
+}
+
+.search input{
+
+  padding: 8px;
+  
+  
+  
+  
+ 
+}
+.fa-search{
+  color:white;
+  background-color: #4db848;
+  font-size: 18px;
+  height: 28px;
+  width: 50px;
+  text-align: center;
+  padding-top: 5px;
+}
+.fa-user-circle{
+  color: #4db848;
+  padding-right: 4px;
+
+}
+.fa-mobile-alt{
+  color: #4db848;
+  padding-right: 4px;
+
+}
+
+
+
+
+.second-header li{
+  padding: 8px;
+}
+.second-header ul{
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-between;
+  float: right;
+  width: 800px;
+  list-style: none;
+  padding-right: 1em;
+  
+  
+  
+}
+.second-header a{
+  text-decoration: none;
+  color:white;
+  font-weight: 600;
+
+}
+.second-header a:hover{
+  border-bottom:4px solid whitesmoke;
+  padding-bottom:10px; 
+}
+.active a:link{
+  border-bottom:4px solid whitesmoke;
+  padding-bottom:10px; 
+
+}
+
+.text{
+  color: whitesmoke;
+  margin-top:100px;
+  padding-left: 150px;
+  width: 40em;
+
+}
+.text h1{
+  font-size: 2.8em;
+  font-weight: 700;
+}
+.text p{
+  font-size: 2em;
+}
+.text a{
+  text-decoration: none;
+  color:whitesmoke;
+  font-weight: 500;
+
+}
+.trip{
+  border: 1px solid #4db848;
+  background-color:#4db848;
+  padding: 12px;
+}
+
+
+.test{
+  width: 55em;
+  height:200px;
+  box-shadow: 4px 5px #c7c7c7;
+  background-color: white;
+  position: relative;
+  bottom:2.5em;
+  left:12em;
+  padding: 20px 40px;
+
+
+}
+
+.select{
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-between;
+  width: 40em;
+  font-size: 1.2em;
+  
+}
+.select li{
+  list-style: none;
+  border: 0.7px solid #333;
+  padding: 8px;
+  width: 10em;
+  color:grey;
+}
+.select a{
+  text-decoration: none;
+  border: 1px solid #4db848;
+  background-color:#4db848;
+  padding: 10px;
+  color:white;
+}
